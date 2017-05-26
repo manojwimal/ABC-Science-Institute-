@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67603FAC-0E7F-4B4A-980B-E8CA7824E72A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ABC_Science_Institute.My.MyApplication</StartupObject>
+    <RootNamespace>ABC_Science_Institute</RootNamespace>
+    <AssemblyName>ABC Science Institute</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ABC Science Institute.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ABC Science Institute.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1420758725_175335.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\frmCredentials.Designer.vb">
+      <DependentUpon>frmCredentials.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\frmCredentials.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Payment\frmMakePayment.Designer.vb">
+      <DependentUpon>frmMakePayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\frmMakePayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment\frmSubjectFees.Designer.vb">
+      <DependentUpon>frmSubjectFees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\frmSubjectFees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmIncomeByMonth.Designer.vb">
+      <DependentUpon>frmIncomeByMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmIncomeByMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\frmAddProfile.Designer.vb">
+      <DependentUpon>frmAddProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\frmAddProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\frmStudentDetails.Designer.vb">
+      <DependentUpon>frmStudentDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\frmStudentDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\frmUpdateStudent.Designer.vb">
+      <DependentUpon>frmUpdateStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\frmUpdateStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App\frmCredentials.resx">
+      <DependentUpon>frmCredentials.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\frmMakePayment.resx">
+      <DependentUpon>frmMakePayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\frmSubjectFees.resx">
+      <DependentUpon>frmSubjectFees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmIncomeByMonth.resx">
+      <DependentUpon>frmIncomeByMonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\frmAddProfile.resx">
+      <DependentUpon>frmAddProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\frmStudentDetails.resx">
+      <DependentUpon>frmStudentDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\frmUpdateStudent.resx">
+      <DependentUpon>frmUpdateStudent.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creattica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420758725_175335.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alpha_Categories_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alpha_startupmanager_il_0_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420760386_Add-Male-User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420762119_Edit-Male-User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alpha_specialfolders_il14_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420763672_678131-money-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420765152_Accept-Male-User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tfi_rating_optional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420766488_Computer_Analysis-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420767493_Login Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgwel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1420758725_175335.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

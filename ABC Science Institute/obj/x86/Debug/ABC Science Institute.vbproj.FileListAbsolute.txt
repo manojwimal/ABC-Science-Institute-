@@ -1,0 +1,27 @@
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\bin\Debug\ABC Science Institute.exe
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\bin\Debug\ABC Science Institute.pdb
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\bin\Debug\ABC Science Institute.xml
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.Form1.resources
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.Resources.resources
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\obj\x86\Debug\ABC Science Institute.vbproj.GenerateResource.Cache
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\obj\x86\Debug\ABC Science Institute.exe
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\obj\x86\Debug\ABC Science Institute.xml
+C:\Users\Sulochana\AppData\Local\Temporary Projects\ABC Science Institute\obj\x86\Debug\ABC Science Institute.pdb
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC Science Institute.exe
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC Science Institute.xml
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC Science Institute.pdb
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\bin\Debug\ABC Science Institute.exe
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\bin\Debug\ABC Science Institute.pdb
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\bin\Debug\ABC Science Institute.xml
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.Resources.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC Science Institute.vbproj.GenerateResource.Cache
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmLogin.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmMain.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmAddProfile.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmUpdateStudent.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmMakePayment.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmSubjectFees.resources
+d:\documents\visual studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmStudentDetails.resources
+D:\Documents\Visual Studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmIncomeByMonth.resources
+D:\Documents\Visual Studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.frmCredentials.resources
+D:\Documents\Visual Studio 2010\Projects\ABC Science Institute\ABC Science Institute\obj\x86\Debug\ABC_Science_Institute.Form2.resources
